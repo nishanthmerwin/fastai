@@ -46,7 +46,8 @@ requirements = to_list("""
     requests
     scipy
     spacy
-    torchvision-nightly
+    torch==1.0.0
+    torchvision==0.2.1
     typing
 """)
 
@@ -86,8 +87,8 @@ setup_requirements = to_list("""
 ### test dependencies ###
 test_requirements = to_list("""
     pytest
-    torch>=0.4.9
-    torchvision-nightly
+    torch==1.0.0
+    torchvision==0.2.1
     numpy>=1.12
 """)
 
